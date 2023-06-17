@@ -8,7 +8,8 @@ export default {
     extend: {
       screens: {
         'pro' : '912px',
-        'mac' : '1440px'
+        'mac' : '1440px',
+        'mini':  '820px'
       }
     },
   },
