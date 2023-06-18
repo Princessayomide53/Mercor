@@ -24,7 +24,7 @@ export default function Navbar() {
             </div>
             <input type="text" className='bg-[#F5F5F5] mac:w-80 lg:w-80 md:w-48 h-8 mt-4 focus:outline-blue-400 pl-16 md:pl-10 md:text-sm rounded-lg' placeholder='Search for anything....'/></div>
        <div className='flex gap-4'>    
-       <div className='flex gap-4 pt-4 md:mt-1 mac:ml-[410px] lg:ml-36 xl:ml-96 md:ml-5 mini:ml-12 pro:ml-40'>
+       <div className='flex gap-4 pt-4 md:mt-1 mac:ml-[410px] lg:ml-24 xl:ml-80 md:ml-5 mini:ml-12 pro:ml-40'>
         <img src={calendar} alt=""  className='w-7 h-7 md:w-5 md:h-5'/>
        <img src={message} alt="" className='w-7 h-7 md:w-5 md:h-5'/>
        <img src={notification} alt="" className='w-7 h-7 md:w-5 md:h-5'/></div>
