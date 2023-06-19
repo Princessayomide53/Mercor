@@ -12,7 +12,7 @@ import ellipse from "../assets/ellipse.png";
 export default function Side() {
   return (
     <aside>
-    <div className='border-r-2 border-[#DBDBDB] w-64 h-[100%]'>
+    <div className='border-r-2 border-[#DBDBDB] sm:w-64 h-[100%] se:w-52 fold:w-[185px] galaxy:w-52'>
       <div className='p-7 pt-7 space-y-5 border-b-2 border-[#DBDBDB] '>
       <div className='flex gap-5'>
       <img src={category} alt="" className="w-7 h-7"/>
@@ -55,10 +55,10 @@ export default function Side() {
           <img src={lamp} alt="" className='p-5 -mt-16'/>
         </div>
         </div>
-    <div className='w-52 bg-[#F5F5F5] h-56 rounded-xl -mt-8'>
+    <div className='sm:w-52 bg-[#F5F5F5] sm:h-56 se:w-44 se:h-[220px] app5:w-[150px] app5:h-[200px] rounded-xl -mt-8'>
       <p className='text-black pt-10 text-center font-semibold'>Thoughts Time</p>
-      <p className='text-center text-[12px] text-[#787486] font-semibold pt-3'>We don’t have any notice for<br/> you, till then you can share<br /> your thoughts with your<br /> peers.</p>
-   <div className='flex justify-center pt-5'><input type="text" className='w-44 pl-5 h-8 rounded-md focus:outline-blue-400' placeholder='Write a Message'/></div>
+      <p className='text-center text-[12px] text-[#787486] font-semibold pt-3 app5:text-[8px] se:text-[12px]'>We don’t have any notice for<br/> you, till then you can share<br /> your thoughts with your<br /> peers.</p>
+   <div className='flex justify-center pt-5'><input type="text" className='sm:w-44 pl-5 app5:w-[130px] app5:h-8 app5:text-xs sm:h-8 se:w-40 text-base se:text-base se:h-8 rounded-md focus:outline-blue-400' placeholder='Write a Message'/></div>
     </div>
       </div>
       </div>
